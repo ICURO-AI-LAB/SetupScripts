@@ -51,4 +51,7 @@ cmake \
    
 make -j$(nproc)
 sudo make install
-sudo ldconfig"
+sudo ldconfig
+
+echo "export CMAKE_PREFIX_PATH=/usr/local:$CMAKE_PREFIX_PATH" >> ~/.bashrc
+echo "export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH" >> ~/.bashrc
