@@ -3,6 +3,10 @@
 #This shell script is written based on the instructions given in the ROS website.
 #Visit http://wiki.ros.org/melodic/Installation/Ubuntu to read more
 
+# Install some pre-requisites
+sudo apt-get update
+sudo apt-get software-properties-common lsb-release
+
 # Configure your Ubuntu repositories
 sudo add-apt-repository universe
 sudo add-apt-repository multiverse
