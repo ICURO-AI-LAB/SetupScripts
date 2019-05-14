@@ -5,7 +5,7 @@
 
 # Install some pre-requisites
 sudo apt-get update
-sudo apt-get software-properties-common lsb-release
+sudo apt-get install software-properties-common lsb-release
 
 # Configure your Ubuntu repositories
 sudo add-apt-repository universe
