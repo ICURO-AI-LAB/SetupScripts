@@ -3,7 +3,7 @@ sudo apt-get update
 sudo apt-get install -y python-rosinstall python-rosinstall-generator python-wstool \
                            build-essential cmake-qt-gui \
                            make cmake cmake-curses-gui g++ \
-                           libglew-dev libtiff5-dev zlib1g-dev libjpeg-dev libpng12-dev \
+                           libglew-dev libtiff-dev zlib1g-dev libjpeg-dev libpng-dev \
                            libjasper-dev libavcodec-dev libavformat-dev libavutil-dev \
                            libpostproc-dev libswscale-dev libeigen3-dev libtbb-dev \
                            libgtk2.0-dev \
